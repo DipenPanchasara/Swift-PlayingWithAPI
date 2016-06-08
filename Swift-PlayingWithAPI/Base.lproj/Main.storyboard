@@ -275,7 +275,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoCell" id="Z3d-PH-Atq" customClass="PhotoTableViewCell" customModule="Swift_PlayingWithAPI" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoCell" rowHeight="61" id="Z3d-PH-Atq" customClass="PhotoTableViewCell" customModule="Swift_PlayingWithAPI" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="61"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Z3d-PH-Atq" id="Wzu-9L-HCm">
@@ -312,6 +312,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="VVV-yw-e8R" secondAttribute="bottom" constant="5" id="ooF-fe-6pc"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5be-IA-V4Z" secondAttribute="bottom" priority="251" constant="5" id="rNM-qa-ZTd"/>
                                                 <constraint firstAttribute="bottom" secondItem="VVV-yw-e8R" secondAttribute="bottom" constant="5" id="sRB-O3-kgp"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5be-IA-V4Z" secondAttribute="bottom" priority="100" constant="5" id="wT3-06-WSG"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -321,6 +322,7 @@
                                                     <exclude reference="c8g-8K-O63"/>
                                                     <exclude reference="m9F-Md-Lmy"/>
                                                     <exclude reference="ooF-fe-6pc"/>
+                                                    <exclude reference="sRB-O3-kgp"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
